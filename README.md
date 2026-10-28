@@ -1,4 +1,4 @@
-# github.com/lesyk-sandbox/test-cafe-api-local__public-go
+# Cafe API SDK: Go
 
 The Go client for Redocly Cafe.
 
