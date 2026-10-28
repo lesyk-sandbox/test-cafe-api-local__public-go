@@ -134,7 +134,7 @@ type OrderList struct {
 }
 
 type OrderItem struct {
-	MenuItemId string    `json:"menuItemId"`
+	MenuItemId *string   `json:"menuItemId,omitempty"`
 	MenuItem   *MenuItem `json:"menuItem,omitempty"`
 	Quantity   int64     `json:"quantity"`
 	Discount   *int64    `json:"discount,omitempty"`
